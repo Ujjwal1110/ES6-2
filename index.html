@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+
+<script>
+//         class Stack{
+//             constructor(){
+//                 this.length=0;
+//                 this.stack=[];
+//             }
+//         push(el){
+//             this.stack[this.length]=el;
+//             this.length++;
+//         }
+//         pop(el){
+//             this.stack.pop();
+//             this.length--;
+//         }
+
+//         peek(el){
+//             return this.stack[this.length-1];
+          
+//         }
+//         top(el){
+//             this.stack.top();
+//         }
+
+//  }
+
+// let s1=new Stack();
+// s1.push(1);
+// s1.push(2);
+// s1.push(10);
+
+// console.log(s1.peek());
+// s1.pop();
+
+// console.log(s1);
+
+// class Mobile{
+//     constructor(b,bt){
+//         this.brand=b;
+//         this.calling=true;
+//         this.battery=bt;
+//     }
+// }
+
+// let m1=new Mobile("iphone", 5000);
+// console.log(m1);
+
+
+// class SmartPhone extends Mobile{
+//     constructor(b,bt,c,s){
+//         super(b, bt);
+//         this.camera=c;
+//         this.screenSize=s;
+//     }
+// }
+
+// let m2=new SmartPhone("iphone", 5000, "20px", "6inch");
+// console.log(m2);
+
+
+class Car{
+    constructor(b,prc){
+        this.brand=b;
+        this.Drive=true;
+        this.price=prc;
+    }
+}
+
+class SmartCar extends Car{
+    constructor(b,prc,pwr,typ){
+        super(b,prc);
+        this.power=pwr;
+        this.type=typ;
+        
+    }
+}
+
+let we=new SmartCar("Tata", 200000, "1700cc", "Sedan")
+console.log(we);
+</script>
+
+</html>
